@@ -18,7 +18,7 @@ class AddUser extends React.Component {
     render() {
     return (
         <header>
-            <h5>Создание нового пользователя</h5>
+            <h5>Создание нового крутого пользователя</h5>
             <form ref={(el) => this.myForm = el}>
             <div className="mb-3"><input placeholder="Имя" className="form-control"
             onChange={e => this.setState({firstname: e.target.value})} /></div>
