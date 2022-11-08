@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 class AddUser extends React.Component {
     userAdd = {}
     constructor(props) {
-        super(props) 
+        super(props)
         this.state = {
             firstname: "",
             lastname: "",
