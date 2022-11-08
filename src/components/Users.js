@@ -10,7 +10,7 @@ render() {
         {this.props.users.map((e) => (
               <User onEdit={this.props.onEdit} onDelete={this.props.onDelete} key={e.id} user={e} />
             ))}
-        </>)
+        </>) 
     else 
       return (
             <div className="bg-users">
