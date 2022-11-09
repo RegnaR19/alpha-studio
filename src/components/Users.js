@@ -14,7 +14,7 @@ render() {
     else 
       return (
             <div className="bg-users">
-                <h5>Все записи удалены</h5>
+                <h5>Все записи удалены!!!</h5>
             </div>
             )
     }
