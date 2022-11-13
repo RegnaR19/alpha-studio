@@ -11,7 +11,7 @@ class User extends React.Component {
         editForm: false
     }
   }
-    user = this.props.user    
+    user = this.props.user
     render() {
     return (
         <div className="bg-users">

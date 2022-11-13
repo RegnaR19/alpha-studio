@@ -4,16 +4,10 @@ import Users from './Users'
 // import Input1 from "./Input"
 // import Button1 from "./Button"
 import AddUser from "./AddUser";
-import axios from "axios";
-
-const baseUrl = "https://reqres.in/api/users?page=1"
 
 class App extends React.Component {
   constructor(props) {
     super(props)
-    axios.get(baseUrl).then((res) => {
-      this.setState({users: res.data.data});
-    })
     this.state = {
       users: []   
   }
